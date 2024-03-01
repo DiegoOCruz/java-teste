@@ -20,7 +20,7 @@ public class FuncionarioTiTeste {
 	@BeforeEach
 	private void setUp() {
 		funcTeste1 = new Ti(NOME, CPF, NASCIMENTO);
-	}
+	} 
 	
 	@Test
 	void testeSalárioCursoSuperior() {

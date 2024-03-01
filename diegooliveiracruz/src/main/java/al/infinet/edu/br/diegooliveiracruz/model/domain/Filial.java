@@ -2,6 +2,7 @@ package al.infinet.edu.br.diegooliveiracruz.model.domain;
 
 import java.util.List;
 
+
 import al.infinet.edu.br.diegooliveiracruz.Funcionario;
 
 public class Filial {
