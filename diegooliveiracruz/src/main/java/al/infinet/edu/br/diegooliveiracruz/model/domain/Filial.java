@@ -9,21 +9,23 @@ public class Filial {
 	private String nome;
 	private String cnpj;
 	private List<Funcionario> funcinarios;
-	
-	
+	private Endereco endereco;
+		
 	public Filial() {
 
 	} 
 	
-	public Filial(String nome, String cnpj) {
+	public Filial(String nome, String cnpj, Endereco endereco) {
+		this();
 		this.setNome(nome);
 		this.setCnpj(cnpj);
+		this.setEndereco(endereco);
 	}
 	
 	
 	@Override
 	public String toString() {
-		return "Filial [nome=" + nome + ", cnpj=" + cnpj + "]";
+		return "Filial [nome= " + nome + ", cnpj= " + cnpj + ", Endereço= " + endereco + "]";
 	}
 
 	public String getNome() {
@@ -47,5 +49,11 @@ public class Filial {
 		this.funcinarios = funcinarios;
 	}
 
-	
+	public Endereco getEndereco() {
+		return endereco;
+	}
+
+	public void setEndereco(Endereco endereco) {
+		this.endereco = endereco;
+	}
 }

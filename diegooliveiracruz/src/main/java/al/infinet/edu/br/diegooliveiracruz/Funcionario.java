@@ -26,6 +26,6 @@ public class Funcionario implements ApplicationRunner {
 		teste2.setCursoSuperior(true);
 		//System.out.println(teste2.salarioLiquido());
 		
-	}   
+	}    
 
 }

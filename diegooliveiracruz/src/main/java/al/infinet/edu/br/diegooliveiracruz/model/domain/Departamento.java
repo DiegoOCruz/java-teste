@@ -32,6 +32,6 @@ public abstract class Departamento {
 	}
 	public void setNascimento(String nascimento) {
 		this.nascimento = nascimento;
-	}
+	} 
 	
 }

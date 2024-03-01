@@ -11,13 +11,15 @@ public class FilialService {
 	private static Map<String, Filial> filiais = new HashMap<String, Filial>();
 	
 	public void incluir(Filial filial) {
-		System.out.println("Incluão da filial " + filial + " feito com sucesso!" );
-		filiais.put(filial.getNome(), filial);
+		
+		filiais.put(filial.getNome(), filial); 
+		//System.out.println("Incluão da filial " + filial + " feito com sucesso!" );
 	}
 	
 	public void excluir(String nome) {
-		System.out.println("A filial " + nome + " foi excluída com sucesso!" );
+		
 		filiais.remove(nome);
+		//System.out.println("A filial " + nome + " foi excluída com sucesso!" );
 	}
 	
 	public Collection<Filial> obterLista() {

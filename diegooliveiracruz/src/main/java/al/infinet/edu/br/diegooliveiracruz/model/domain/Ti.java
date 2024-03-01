@@ -11,7 +11,7 @@ public class Ti extends Departamento{
 	} 
 	
 	public Ti(String nome, String cpf, String nascimento, float salario, boolean cursoSuperior) {
-		super(nome, cpf, nascimento);
+		this(nome, cpf, nascimento);
 		this.salario = salario;
 		this.cursoSuperior = cursoSuperior;
 	}
